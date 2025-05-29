@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccdbe7; /* Azul padrão do Windows 10 */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: rgb(102, 184, 231);
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: rgb(103, 172, 236);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: rgb(166, 185, 238);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333; /*   fundo  */
+    color: rgb(149, 184, 238);
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 300px; /* ou o tamanho desejado */
+    height: 200px;
+    object-fit: cover; /* mantém proporção e recorta se necessário */
+    border-radius: 6px; /* opcional: cantos arredondados */
+    display: block;
+    margin: 10px auto; /* centraliza a imagem */
+}
+
